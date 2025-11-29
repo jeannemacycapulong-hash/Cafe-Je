@@ -3,7 +3,7 @@
 $coffee1 = array("Espresso", 120);
 $coffee2 = array("Americano", 110);
 
-$pastry1 = array("Blueberry Muffin", "95"); // string for type juggling
+$pastry1 = array("Blueberry Muffin", "95"); 
 $pastry2 = array("Chocolate Croissant", 105);
 
 // TYPE JUGGLING + EXPRESSION
