@@ -1,0 +1,49 @@
+/* Center the entire page */
+body {
+    font-family: Arial;
+    background-color: #f4f2ee;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Container for all content */
+.container {
+    width: 90%;
+    max-width: 700px;
+}
+
+/* Centered title */
+h1 {
+    background-color: #6f4e37;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+/* Section headings */
+h2 {
+    background-color: #d8c3a5;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+/* Tables centered */
+table {
+    width: 100%;
+    margin: 0 auto 25px auto;
+    border-collapse: collapse;
+}
+
+/* Borders */
+table, th, td {
+    border: 1px solid #b1967c;
+}
+
+/* Table cell styling */
+th, td {
+    padding: 10px;
+    text-align: center;
+}
