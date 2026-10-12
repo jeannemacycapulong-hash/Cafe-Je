@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Je - Contact</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Cafe Je</div>
+        <nav>
+            <a href="/">HOME</a>
+            <a href="/menu">MENU</a>
+            <a href="/about">ABOUT</a>
+            <a href="/contact" class="active">CONTACT</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="two-column">
+            <div class="column-img">
+                <img src="/images/contactimg.jpg" alt="Contact Cafe Je">
+            </div>
+            <div class="column-content">
+                <h2>Contact Us</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
